@@ -1,0 +1,249 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*Header Start*/
+header{
+  background-color: rgb(38, 38, 162);
+  height: 500px;
+}
+/* Navigation Bar Starts */
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 65%;
+  margin-right: 5%;
+  color: white;
+}
+svg{
+margin-top: 1.75%;
+}
+.nav-item-active{
+  background-color: white;
+  margin-top: 0.5%;
+  color: rgb(38, 38, 162);
+}
+/* Navigation Bar ends */
+.logo{
+  margin-left: 2%;
+}
+/* Text */
+.header-text{
+  margin-left: 2%;
+  margin-top: 6%;
+  float: left;
+  color: white;
+  font-size: 32px;
+}
+.header-text p{
+  color: wheat;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.header-image{
+  float: right;
+  width: 650px;
+}
+/* Header Ends */
+.companies{
+  margin-left: 2%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-top: 1.5%; 
+  width: 700px;
+  
+}
+.company-items {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-weight: 900;
+}
+/* API Section */
+
+.api{
+  margin-left: 2%;
+margin-top: 5%;
+width: 1400px;
+}
+.api-heading{
+  font-weight:bolder;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.card-active
+{
+  background-color: whitesmoke
+}
+.card-head-active{
+  color:  rgb(38, 38, 162);
+}
+/* Blog section */
+.blog-heading{
+  margin-left: 2%;
+font-weight: bolder;
+margin-top: 5%;
+}
+.blog-cards{
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  
+  margin-top: 3%;
+}
+.blog-card{
+  display: flex;
+  margin-right: 5%;
+  width: 700px;
+}
+.blog-content{
+  display: inline-block;
+  vertical-align: top;
+  background-color: whitesmoke;
+  width: 450px;
+  height: 300px;
+  text-align: center;
+}
+.blog-bottom{
+  position: relative;
+  z-index: 1;
+  margin-top: 260px;
+
+  width: 0;
+  margin-left: -375px;
+}
+.blog-author{
+  position: relative;
+  z-index: 1;
+  width: 0;
+ 
+  margin-top: 250px;
+  margin-left: 10%;
+}
+.faq-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+}
+.faq-content{
+ margin-top: 3%;
+ margin-left: 2%;
+
+}
+.faq-content h2{
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+.faq-content h4{
+font-size: small;
+color: gray;
+}
+.faq-content button{
+  margin-top: 3%;
+  background-color: rgb(38, 38, 162);
+  padding: 2px;
+  width: 100px;
+  border-radius: 15px;
+  color: white;
+}
+.faq-image{
+  position: relative;
+  
+}
+/* download-section */
+.download-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.download-content{
+  margin-left: 2%;
+}
+.download-content h1{
+  font-weight: bolder;
+}
+.download-content span{
+  font-weight: lighter;
+}
+.download-email
+{
+  background-color: whitesmoke;
+  border-radius: 15px;
+  align-content: center;
+  width: 600px;
+  margin-right: 10%;
+}
+.download-email form{
+  margin-top: 2%;
+  border: none;
+  border-radius: 15px;
+  background-color: whitesmoke
+
+}
+.download-email button{
+  margin-left: 25%;
+  background-color: rgb(38, 38, 162) ;
+  width: 150px;
+  border-radius: 15px;
+  color: white;
+}
+.footer-section{
+  background-color: rgb(38, 38, 162) ;
+  padding-bottom: 3%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left
+{
+  margin-left: 2%;
+  margin-top: 9%;
+
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 500px;
+  color: white;
+  margin-top: 5%;
+}
+.footer-right
+{
+  margin-top: 8%;
+  margin-right: 10%;
+}
+
+.footer-logos{
+  width: 70px;
+}
+.logos-list{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 200px;
+  color: white;
+  margin-top: 5%;
+}
